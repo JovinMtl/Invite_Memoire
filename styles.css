@@ -1,5 +1,26 @@
 
 *{
-    background-color: blue;
+    /* background-color: blue; */
+    margin: 0;
+    padding: 0;
 }
 
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.containerInv{
+    display: flex;
+    background-color: white;
+    width: 800px;
+    height: 480px;
+    background: linear-gradient(to bottom right, rgba(250, 128, 114, 0.453), rgba(255, 255, 0, 0.274), rgba(255, 166, 0, 0.374) );
+    /* border: 5px solid linear-gradient(to bottom right, salmon, yellow ); */
+}
