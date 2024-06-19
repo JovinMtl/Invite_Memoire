@@ -57,6 +57,12 @@
     height: 10%;
     background-color: goldenrod;
 }
+.logoUb{
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 55px;
+}
 
 .theme{
     width: 100%;
