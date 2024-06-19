@@ -28,14 +28,14 @@
     margin: 30px;
     border-width: 5px;
     border-style: solid;
-    border-image-source: linear-gradient(to bottom right, red, green);
+    border-image-source: linear-gradient(to top left, green, orange, red);
     border-image-slice:  1;
 }
 
 .invTitle{
     width: 70%;
     height: 8%;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .contenu{
