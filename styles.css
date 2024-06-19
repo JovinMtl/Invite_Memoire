@@ -56,6 +56,8 @@
     width: 100%;
     height: 10%;
     background-color: goldenrod;
+    display: flex;
+    justify-content: center;
 }
 .logoUb{
     width: 55px;
@@ -63,7 +65,12 @@
     background-color: white;
     border-radius: 55px;
 }
-
+.photoOlivier{
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 55px;
+}
 .theme{
     width: 100%;
     height: 20%;
