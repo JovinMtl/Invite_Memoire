@@ -131,5 +131,8 @@
 }
 
 .enclosing{
-    font-size: .8rem;
+    width: 80%;
+    font-size: .7rem;
+    border: 1px dashed black;
+    margin-left: 50px;
 }
