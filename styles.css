@@ -41,5 +41,11 @@
 .imagesContainer{
     width: 100%;
     height: 10%;
-    background-color: green;
+    background-color: goldenrod;
+}
+
+.theme{
+    width: 100%;
+    height: 20%;
+    background-color: blue;
 }
