@@ -21,14 +21,20 @@
     background-color: white;
     width: 30%;
     height: 95%;
-    background: linear-gradient(to top right, rgba(250, 128, 114, 0.453), rgba(255, 255, 0, 0.274), rgba(255, 166, 0, 0.374) );
-    /* border: 5px solid linear-gradient(to bottom right, salmon, yellow ); */
+    background: linear-gradient(to top right,
+                 rgba(165, 138, 104, 0.692), 
+                 rgba(255, 255, 0, 0.274), 
+                 rgba(255, 166, 0, 0.374) );
     margin: 30px;
+    border-width: 5px;
+    border-style: solid;
+    border-image-source: linear-gradient(to bottom right, red, green);
+    border-image-slice:  1;
 }
 
 .invTitle{
     width: 70%;
-    height: 5%;
+    height: 8%;
     background-color: green;
 }
 
