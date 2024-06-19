@@ -64,8 +64,16 @@
     height: 55px;
     background-color: white;
     border-radius: 55px;
+    margin-right: 55px;
 }
 .photoOlivier{
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 55px;
+    margin-right: 55px;
+}
+.logoEansi{
     width: 55px;
     height: 55px;
     background-color: white;
