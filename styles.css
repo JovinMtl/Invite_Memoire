@@ -30,12 +30,19 @@
     border-style: solid;
     border-image-source: linear-gradient(to top left, green, orange, red);
     border-image-slice:  1;
+    text-align: center;
+    justify-content: center;
 }
 
 .invTitle{
     width: 70%;
-    height: 8%;
+    height: 12%;
     /* background-color: green; */
+    font-size: 1.425rem;
+    /* text-align: center; */
+    /* align-content: center; */
+    margin-left: 60px;
+    margin-top: 5px;
 }
 
 .contenu{
