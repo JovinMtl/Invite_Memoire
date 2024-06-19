@@ -30,7 +30,7 @@
     margin: 30px;
     border-width: 5px;
     border-style: solid;
-    border-image-source: linear-gradient(to top left, green, orange, red);
+    border-image-source: linear-gradient(to top left, greenyellow, orange, red);
     border-image-slice:  1;
     text-align: center;
     justify-content: center;
@@ -61,31 +61,40 @@
 
 .imagesContainer{
     width: 100%;
-    height: 10%;
+    height: 11%;
     background-color: goldenrod;
     /* background-color: transparent; */
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .logoUb{
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     background-color: white;
-    border-radius: 55px;
+    /* border-radius: 55px; */
     margin-right: 55px;
+    background-image: url('../../Documents/tmp/ub.png');
+    background-size: cover;
 }
 .photoOlivier{
-    width: 55px;
-    height: 55px;
+    width: 85px;
+    height: 85px;
     background-color: white;
     border-radius: 55px;
-    margin-right: 55px;
+    margin-right: 45px;
+    background-image: url('../../Documents/tmp/IMG-20240619-WA0107_1.jpg');
+    background-size: cover;
+    border: 4px solid greenyellow;
+
 }
 .logoEansi{
-    width: 55px;
-    height: 55px;
+    width: 78px;
+    height: 60px;
     background-color: white;
-    border-radius: 55px;
+    /* border-radius: 55px; */
+    background-image: url('../../Documents/tmp/eansi.png');
+    background-size: cover;
 }
 .theme{
     width: 96%;
@@ -97,6 +106,7 @@
 .author{
     width: 100%;
     height: 5%;
+    margin-top: 15px;
     /* background-color: yellow; */
 }
 
@@ -104,6 +114,7 @@
 .lieu{
     display: flex;
     width: 100%;
+    padding: 10px;
     /* height: 20%; */
     /* background-color: white; */
 }
